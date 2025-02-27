@@ -1,0 +1,14 @@
+{
+  "install": "npm install",
+  "start": "npm start",
+  "watch": {
+    "throttle": 1000
+  },
+  "restart": {
+    "include": [
+      "\\.js$",
+      "\\.json",
+      "\\.env"
+    ]
+  }
+}
